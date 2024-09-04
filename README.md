@@ -52,19 +52,24 @@ Before you begin, ensure you have the following installed:
    git clone <LINK>
    
 2. **Create a virtual environment:**
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
 
 3. **Install the required Python packages:**
+   ```bash
    pip install -r requirements.txt
 
 4. **Apply migrations:**
+   ```bash
    python manage.py migrate
 
 5. **Create a superuser:**
+   ```bash
    python manage.py createsuperuser
 
 6. **Run the development server:**
+   ```bash
    python manage.py runserver
 
 ### Frontend Setup (React)
@@ -75,9 +80,11 @@ Before you begin, ensure you have the following installed:
    cd frontend
 
 2. **Install the required npm packages:**
+   ```bash
    npm install
 
 3. **Start the React development server:**
+   ```bash
    npm start
 
 
